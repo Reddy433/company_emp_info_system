@@ -102,36 +102,8 @@ This is a full-stack application built using the MERN (MongoDB, Express.js, Reac
     ```bash
     npm start
     ```
-
-
-API Endpoints
-Authentication
-POST /api/auth/login: Admin login.
-Companies
-POST /api/companies: Create a new company (Admin only).
-GET /api/companies: Get a list of all companies (Admin only).
-GET /api/companies/
-: Get a specific company by ID (Admin only).
-PUT /api/companies/
-: Update company information (Admin only).
-DELETE /api/companies/
-: Delete a company (Admin only).
-Employees
-POST /api/employees: Create a new employee (Admin only).
-GET /api/employees: Get a list of all employees within a company (Admin only).
-GET /api/employees/
-: Get a specific employee by ID (Admin only).
-PUT /api/employees/
-: Update employee information (Admin only).
-DELETE /api/employees/
-: Delete an employee (Admin only).
-GET /api/employees/search: Search for employees by name, employee ID, or phone number within a company (Admin only).
-Environment Variables
-MONGO_URI: MongoDB connection string.
-JWT_SECRET: Secret key for signing JSON Web Tokens.
 Technologies Used
 Backend:
-
 Node.js
 Express.js
 MongoDB
@@ -160,4 +132,11 @@ Search for employees by name, employee ID, or phone number within a company.
 View Reporting Hierarchy:
 
 View an employee's subordinates and their reporting manager by accessing the employee details.
+
+
+
+![Screenshot (152)](https://github.com/user-attachments/assets/b7fe0fa3-72d8-4ff3-9aae-58389b0cf330)
+![Screenshot (151)](https://github.com/user-attachments/assets/53132ff5-dd08-4524-8556-9ada3bd9d455)
+![Screenshot (154)](https://github.com/user-attachments/assets/28c53aba-c925-4912-9908-ed6efc65713b)
+![Screenshot (153)](https://github.com/user-attachments/assets/3ea87341-f3ed-4211-9b79-706d25b2d9bb)
 
